@@ -10,8 +10,33 @@ const router = createRouter({
     },
     {
       path: '/leeruitkomsten',
-      name: 'about',
+      name: 'leeruitkomsten',
       component: () => import('../views/AboutView.vue')
+    },
+    {
+      path: '/Kathleen',
+      name: 'kathleen',
+      component: () => import('../views/Kathleen.vue')
+    },
+    {
+      path: '/KeeperSprint1',
+      name: 'keeperSprint1',
+      component: () => import('../views/KeeperSprint1.vue')
+    },
+    {
+      path: '/KeeperSprint2',
+      name: 'keeperSprint2',
+      component: () => import('../views/KeeperSprint2.vue')
+    },
+    {
+      path: '/MacSprint1',
+      name: 'macSprint1',
+      component: () => import('../views/MacSprint1.vue')
+    },
+    {
+      path: '/MacSprint2',
+      name: 'macSprint2',
+      component: () => import('../views/MacSprint2.vue')
     }
   ]
 })

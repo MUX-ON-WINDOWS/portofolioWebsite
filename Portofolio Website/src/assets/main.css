@@ -49,11 +49,11 @@ body {
 .swiper-wrapper .swiper-slide:nth-child(2) {
   height: 350px;
 }
-.swiper-wrapper .swiper-slide:nth-child(3) {
+.swiper-wrapper .swiper-slide:nth-child(4) {
   background-color: #264F36;
   color: white;
 }
-.swiper-wrapper .swiper-slide:nth-child(4) {
+.swiper-wrapper .swiper-slide:nth-child(5) {
   background-color: #264F36;
   color: white;
 }
