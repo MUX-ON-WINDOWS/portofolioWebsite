@@ -164,3 +164,22 @@ nav {
   background-color: white;
   color: black;
 }
+.top_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+}
+.close {
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 50%;
+}
+.close svg {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  fill: black;
+}
