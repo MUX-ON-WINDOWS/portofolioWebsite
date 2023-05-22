@@ -28,8 +28,8 @@ import { RouterLink } from 'vue-router'
             <h3>Website design:</h3>
             Eerst heb ik onderzoek gedaan naar bestaande webshops voor keepers hier bleek dat er weinig website waren voor keepers. Daarom heb ik ook naar andere webshops gezocht die voor voetbal of voor hockey waren. Na dit onderzoek ben ik begonnen met mijn eerste paar versie’s.
             <div class="container_images">
-              <img src="@/assets/goalKeeperLogo_MaxV2.png" width="100%"/>
-              <img src="@/assets/BlueBGLogoV2.png" width="100%" />
+                <img src="@/assets/BlueBGLogoV2.png" width="100%" />
+                <img src="@/assets/goalKeeperLogo_MaxV2.png" width="100%"/>
               <img src="@/assets/YellowBGLogoV2.png" width="100%" />
             </div>
             <h3>Logo:</h3>
@@ -62,13 +62,19 @@ button {
     color: black;
 }
 .container_images {
-  height: 200px;
+    height: 120px;
+    margin: 10px;
+}
+.container_images img {
+  height: 120px;
+  width: 168px !important;
 }
 .container_buttons, .container_images {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    gap: 10px;
 }
 .container_background {
     background-color: #D3AE87;

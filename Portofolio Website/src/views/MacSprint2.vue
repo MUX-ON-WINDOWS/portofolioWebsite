@@ -26,8 +26,10 @@ import { RouterLink } from 'vue-router'
 
         <h3>Prototype penaltyShooter:</h3>
         Bij deze sprint ben ik begonnen met maken van de penaltyShooter. Hier heb veel verschillende dingen geleerd zoals werken met animate.js, of het maken van een timing balk.
-        <img src="@/assets/penaltyShooter.png" width="100%" />
-
+        <div class="containerPenaltyShooterImages">
+            <img src="@/assets/penaltyShooter.png" width="100%" />
+            <img src="@/assets/animation.png" width="100%" />
+        </div>
         <h1>Leeruitkomsten die ik aan toon in dit project:</h1>
             <div class="container_buttons_sprint2_macdonalds">
                 <button><RouterLink to="/leeruitkomsten">Research</RouterLink></button>
@@ -65,7 +67,7 @@ button {
 .container_MacSprint2_content {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 135vh;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -74,5 +76,14 @@ button {
     align-items: center;
     justify-content: center;
 }
-
+.container_MacSprint2_content img {
+    height: 667px !important;
+    width: 377px !important;
+}
+.containerPenaltyShooterImages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
 </style>

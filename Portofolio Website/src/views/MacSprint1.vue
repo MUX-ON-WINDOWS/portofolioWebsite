@@ -34,6 +34,7 @@ import { RouterLink } from 'vue-router'
                 <button><RouterLink to="/leeruitkomsten">Research</RouterLink></button>
                 <button><RouterLink to="/leeruitkomsten">INTERACTIVE MEDIA</RouterLink></button>
                 <button><RouterLink to="/leeruitkomsten">Design</RouterLink></button>
+                <button><RouterLink to="/leeruitkomsten">Communication</RouterLink></button>
             </div>
         </div>
     </div>
@@ -67,7 +68,7 @@ button {
 .container_MacSprint1_content {
     display: flex;
     flex-direction: column;
-    height: 210vh;
+    height: 120vh;
     margin-left: 10%;
     margin-right: 10%;
 }

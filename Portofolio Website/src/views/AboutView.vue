@@ -96,6 +96,7 @@
       <h3>Bewijs:</h3>
       <ul>
         <li><a href="https://i507258.hera.fhict.nl/presentatie/sprint1Mac.pptx">Presentatie sprint 1</a></li>
+        <li><a href="https://i507258.hera.fhict.nl/presentatie/sprint1Mac.pptx">Presentatie sprint 2</a></li>
       </ul>
     </div>
   </div>
