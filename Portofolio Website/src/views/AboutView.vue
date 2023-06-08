@@ -17,14 +17,14 @@
       <ul>
         <li><a href="https://www.figma.com/file/t62ZqG0sSBJiLgyNA3QW5O/Katleen-Website?node-id=0%3A1&t=2FSAV7a3mpk1iuD1-1">Website design Kathleen.</a></li>
         <li><a href="https://www.figma.com/file/98FJ9ml8PfQ3Ie24TaC50l/Untitled?node-id=0%3A1&t=cz8sJ2BzIGLVa301-1">Website design Eigen project.</a></li>
-        <li><a href="">Kaarten landen</a></li>
+        <li><a href="https://i507258.hera.fhict.nl/Mac campaign/landen/Belgie/Dries Mertens.png">Kaarten landen</a></li>
         <li><a href="https://i507258.hera.fhict.nl/Mac campaign/MacTeam.ai">Speciaal Macdonalds kaarten</a></li>
       </ul>
     </div>
   </div>
   <!-- rij 2 -->
   <div class="container_row">
-    <div class="container_content_uitleg2">
+    <div class="container_content_uitleg2" style="height: 280px;">
       <h3>Reflectie:</h3>
       Mijn reflectie is hoe beter je je werk uitwerkt (uitschrijven wat je wilt) voordat je begint met de
       development hoe makkelijker het is om het te realiseren. Wat de volgende keer beter kan is het beter door lezen van documentatie.
@@ -74,8 +74,9 @@
       <h3>Bewijs:</h3>
       <ul>
         <li><a href="https://i507258.hera.fhict.nl/Kathleen/onderzoekPlanning.docx">Post tijden TikTok & Instagram</a></li>
-        <li><a href="">Penaltyshooter research</a></li>
-        <li><a href="">Onderzoek framework eigen project</a></li>
+        <li><a href="https://i507258.hera.fhict.nl/research/Penalty Shooter research.docx">Penaltyshooter research</a></li>
+        <li><a href="https://i507258.hera.fhict.nl/research/Onderzoek framework eigen project.docx">Onderzoek framework eigen project</a></li>
+        <li><a href="https://i507258.hera.fhict.nl/research/Onderzoek prijs variantie keepers handschoenen.docx">Onderzoek prijzen keepershandschoenen</a></li>
       </ul>
     </div>
     <div class="border2"></div>
@@ -96,7 +97,7 @@
       <h3>Bewijs:</h3>
       <ul>
         <li><a href="https://i507258.hera.fhict.nl/presentatie/sprint1Mac.pptx">Presentatie sprint 1</a></li>
-        <li><a href="https://i507258.hera.fhict.nl/presentatie/sprint1Mac.pptx">Presentatie sprint 2</a></li>
+        <li><a href="https://i507258.hera.fhict.nl/powerpoint%20sprint%202%20mcdonalds%20v2.pptx">Presentatie sprint 2</a></li>
       </ul>
     </div>
   </div>
@@ -108,9 +109,9 @@
         of je zo goed te werk ging.
       <h3>Bewijs:</h3>
       <ul>
-        <li><a href="https://i507258.hera.fhict.nl/presentatie/sprint2Mac.pptx">Portofolio</a></li>
-        <li><a href="https://i507258.hera.fhict.nl/presentatie/sprint3Mac.pptx">Feedpulse MacDonalds</a></li>
-        <li><a href="https://i507258.hera.fhict.nl/presentatie/sprint4Mac.pptx">Feedpulse eigenproject</a></li>
+        <li><a href="https://i507258.hera.fhict.nl/">Portofolio</a></li>
+        <li><a href="https://fhict.instructure.com/courses/12834/external_tools/1067">Feedpulse MacDonalds</a></li>
+        <li><a href="https://fhict.instructure.com/courses/12834/external_tools/1067">Feedpulse eigenproject</a></li>
       </ul>
     </div>
     <div class="border2"></div>
