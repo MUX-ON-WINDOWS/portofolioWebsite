@@ -59,7 +59,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: 200vh;
+  height: 300vh;
   margin-top: 30px;
 }
 .container_row {
@@ -67,7 +67,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  height: 100px;
+  height: 350px;
 }
 .border1 {
   border: dashed 10px white;
@@ -82,6 +82,7 @@ nav {
 .leerdoel1 {
   border-radius: 30px;
   padding: 30px;
+  margin: 10px;
   height: 200px;
   width: 404px;
   text-align: center;
@@ -91,6 +92,7 @@ nav {
 .leerdoel2 {
   border-radius: 30px;
   padding: 30px;
+  margin: 10px;
   height: 200px;
   width: 404px;
   text-align: center;
@@ -105,19 +107,25 @@ nav {
 }
 .container_content_uitleg1 {
   width: 50%;
-  height: 250px;
+  height: 100%;
   border-radius: 30px;
   padding: 30px;
+  margin: 10px;
   background-color: #D3AE87;
   color: white;
 }
 .container_content_uitleg2 {
   width: 50%;
-  height: 250px;
+  height: 100%;
   border-radius: 30px;
   padding: 30px;
+  margin: 10px;
   background-color: white;
   color: black;
+}
+.content_container_margin {
+  padding-right: 50px;
+  padding-left: 50px;
 }
 .top_section {
   display: flex;
