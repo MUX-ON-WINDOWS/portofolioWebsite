@@ -3,15 +3,17 @@
     <div class="containerCarousel">
         <Carousel  :itemsToShow="3.95" :wrapAround="true" :transition="500">
             <Slide v-for="slide in slides" :key="slide">
-                <div class="carousel__item">
+                <div :style="{ backgroundColor: slide.backgroundColor }" class="carousel__item">
                     <img class="imageContainer" :src="slide.imageUrl"/>
-                    <h2>{{slide.contentName}}</h2>
-                    <p>{{slide.sprint}}</p>
+                    <a style="text-decoration: none; color: black !important;" :href="slide.linkPage">
+                        <h2>{{slide.contentName}}</h2>
+                        <p>{{slide.sprint}}</p>
+                    </a>
                 </div>
             </Slide>
         </Carousel>
     </div>
-  </template>
+</template>
 
   <script>
   import { defineComponent } from 'vue'
@@ -29,11 +31,11 @@
     data() {
       return {
         slides: [
-            {imageUrl : "src/assets/KathleenLogoFlatRed2.png", contentName: "Kathleen Willemse"},
-            {imageUrl : "src/assets/goalKeeperLogo_MaxV2.png", contentName: "KeepersWebShop", sprint: "Sprint 1"},
-            {imageUrl : "src/assets/goalKeeperLogo_MaxV2.png", contentName: "KeepersWebShop", sprint: "Sprint 2"},
-            {imageUrl : "src/assets/mcdonalds.png", contentName: "MacDonalds EK 2024", sprint: "Sprint 1"},
-            {imageUrl : "src/assets/mcdonalds.png", contentName: "MacDonalds EK 2024", sprint: "Sprint 2"},
+            {imageUrl : "src/assets/KathleenLogoFlatRed2.png", contentName: "Kathleen Willemse", linkPage: "/Kathleen", backgroundColor: "#D3AE87"},
+            {imageUrl : "src/assets/goalKeeperLogo_MaxV2.png", contentName: "KeepersWebShop", sprint: "Sprint 1", linkPage: "/KeeperSprint1", backgroundColor: "#D3AE87"},
+            {imageUrl : "src/assets/goalKeeperLogo_MaxV2.png", contentName: "KeepersWebShop", sprint: "Sprint 2", linkPage: "/KeeperSprint2", backgroundColor: "#D3AE87"},
+            {imageUrl : "src/assets/mcdonalds.png", contentName: "MacDonalds EK 2024", sprint: "Sprint 1", linkPage: "/MacSprint1", backgroundColor: "#264F36"},
+            {imageUrl : "src/assets/mcdonalds.png", contentName: "MacDonalds EK 2024", sprint: "Sprint 2", linkPage: "/MacSprint2", backgroundColor: "#264F36"},
         ], // Example data for the slides
       }
     },
@@ -44,19 +46,22 @@
     .containerText {
         display: flex;
         justify-content: center;
-        /* margin-top: 100px; */
-        /* position: absolute; */
-        font-size: 200px;
+        font-size: clamp(10rem, 17vw, 20rem);
         color: white;
         z-index: -1;
+        margin-top: -300px;
+        white-space: nowrap;
     }
     .containerCarousel {
-        margin-top: 200px;
+        margin-top: -25%;
         z-index: 10;
     }
     .imageContainer {
         width: 300px;
         height: 50%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
     }
     .carousel__item {
         background-color: #D3AE87;
@@ -64,7 +69,13 @@
         justify-content: center;
         flex-direction: column;
         border-radius: 20px;
-        height: 600px;
+        height: 500px;
+        width: 400px;
+        transition: 500ms;
+    }
+    .carousel__item:hover {
+        opacity: 1;
+        transform: rotateY(0) scale(1.1);
     }
     .carousel__slide {
         padding: 5px;
@@ -75,34 +86,35 @@
     }
 
     .carousel__track {
-    transform-style: preserve-3d;
+        transform-style: preserve-3d;
     }
 
     .carousel__slide--sliding {
-    transition: 0.5s;
+        transition: 0.5s;
     }
 
     .carousel__slide {
-    opacity: 0.9;
-    transform: rotateY(-20deg) scale(0.9);
+        /* opacity: 0.9; */
+        transform: rotateY(-20deg) scale(0.9);
     }
 
     .carousel__slide--active ~ .carousel__slide {
-    transform: rotateY(20deg) scale(0.9);
+        transform: rotateY(20deg) scale(0.9);
     }
 
     .carousel__slide--prev {
-    opacity: 1;
-    transform: rotateY(-10deg) scale(0.95);
+        opacity: 1;
+        transform: rotateY(-10deg) scale(0.9);
     }
 
     .carousel__slide--next {
-    opacity: 1;
-    transform: rotateY(10deg) scale(0.95);
+        opacity: 1;
+        transform: rotateY(10deg) scale(0.9);
     }
 
-    .carousel__slide--active {
-    opacity: 1;
-    transform: rotateY(0) scale(1.1);
-    }
+    /* .carousel__slide--active {
+        opacity: 1;
+        transform: rotateY(0) scale(1.05);
+        height: 550px;
+    } */
 </style>
