@@ -1,7 +1,7 @@
 <template>
     <div class="containerText"><p>MAX ARNOUTS</p></div>
     <div class="containerCarousel">
-        <Carousel  :itemsToShow="3.95" :wrapAround="true" :transition="500">
+        <Carousel :itemsToShow="3.95" :wrapAround="true" :transition="500" paginationColor="gray" paginationActiveColor="red">
             <Slide v-for="slide in slides" :key="slide">
                 <div :style="{ backgroundColor: slide.backgroundColor }" class="carousel__item">
                     <img :style="{ width: slide.width }" class="imageContainer" :src="slide.imageUrl"/>
@@ -11,13 +11,17 @@
                     </a>
                 </div>
             </Slide>
+            <template #addons>
+                <Pagination />
+                <Navigation />
+            </template>
         </Carousel>
     </div>
 </template>
 
   <script>
   import { defineComponent } from 'vue'
-  import { Carousel, Pagination, Slide } from 'vue3-carousel'
+  import { Carousel, Pagination, Navigation, Slide } from 'vue3-carousel'
 
   import 'vue3-carousel/dist/carousel.css'
 
@@ -27,6 +31,7 @@
       Carousel,
       Slide,
       Pagination,
+      Navigation
     },
     data() {
       return {

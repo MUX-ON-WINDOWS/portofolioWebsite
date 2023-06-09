@@ -1,5 +1,13 @@
 /* @import './base.css'; */
-
+:root {
+  --vc-clr-primary: white !important;
+  --vc-pgn-background-color: gray !important;
+  --vc-icn-width: 4em;
+}
+.carousel__icon {
+  height: 50px;
+  width: 50px;
+}
 #app {
   max-width: 1830px;
   margin: 0 auto;
