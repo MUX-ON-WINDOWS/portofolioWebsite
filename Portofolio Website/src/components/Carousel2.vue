@@ -4,10 +4,10 @@
         <Carousel  :itemsToShow="3.95" :wrapAround="true" :transition="500">
             <Slide v-for="slide in slides" :key="slide">
                 <div :style="{ backgroundColor: slide.backgroundColor }" class="carousel__item">
-                    <img class="imageContainer" :src="slide.imageUrl"/>
+                    <img :style="{ width: slide.width }" class="imageContainer" :src="slide.imageUrl"/>
                     <a style="text-decoration: none; color: black !important;" :href="slide.linkPage">
-                        <h2>{{slide.contentName}}</h2>
-                        <p>{{slide.sprint}}</p>
+                        <h2 :style="{ color: slide.color }">{{slide.contentName}}</h2>
+                        <p :style="{ color: slide.color }">{{slide.sprint}}</p>
                     </a>
                 </div>
             </Slide>
@@ -31,11 +31,11 @@
     data() {
       return {
         slides: [
-            {imageUrl : "src/assets/KathleenLogoFlatRed2.png", contentName: "Kathleen Willemse", linkPage: "/Kathleen", backgroundColor: "#D3AE87"},
-            {imageUrl : "src/assets/goalKeeperLogo_MaxV2.png", contentName: "KeepersWebShop", sprint: "Sprint 1", linkPage: "/KeeperSprint1", backgroundColor: "#D3AE87"},
-            {imageUrl : "src/assets/goalKeeperLogo_MaxV2.png", contentName: "KeepersWebShop", sprint: "Sprint 2", linkPage: "/KeeperSprint2", backgroundColor: "#D3AE87"},
-            {imageUrl : "src/assets/mcdonalds.png", contentName: "MacDonalds EK 2024", sprint: "Sprint 1", linkPage: "/MacSprint1", backgroundColor: "#264F36"},
-            {imageUrl : "src/assets/mcdonalds.png", contentName: "MacDonalds EK 2024", sprint: "Sprint 2", linkPage: "/MacSprint2", backgroundColor: "#264F36"},
+            {imageUrl : "src/assets/KathleenLogoFlatRed2.png", contentName: "Kathleen Willemse", linkPage: "/Kathleen", backgroundColor: "#D3AE87", width: "350px", color: "black"},
+            {imageUrl : "src/assets/goalKeeperLogo_MaxV2.png", contentName: "KeepersWebShop", sprint: "Sprint 1", linkPage: "/KeeperSprint1", backgroundColor: "#D3AE87", width: "300px", color: "black"},
+            {imageUrl : "src/assets/goalKeeperLogo_MaxV2.png", contentName: "KeepersWebShop", sprint: "Sprint 2", linkPage: "/KeeperSprint2", backgroundColor: "#D3AE87", width: "300px", color: "black"},
+            {imageUrl : "src/assets/mcdonalds.png", contentName: "MacDonalds EK 2024", sprint: "Sprint 1", linkPage: "/MacSprint1", backgroundColor: "#264F36", width: "300px", color: "white"},
+            {imageUrl : "src/assets/mcdonalds.png", contentName: "MacDonalds EK 2024", sprint: "Sprint 2", linkPage: "/MacSprint2", backgroundColor: "#264F36", width: "300px", color: "white"},
         ], // Example data for the slides
       }
     },
@@ -57,7 +57,7 @@
         z-index: 10;
     }
     .imageContainer {
-        width: 300px;
+        /* width: 300px; */
         height: 50%;
         display: flex;
         justify-content: center;
