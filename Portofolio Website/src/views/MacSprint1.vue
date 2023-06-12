@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router'
 <template>
     <div class="container_background">
         <div class="top_section">
-        <img  class="logo" src="@/assets/mcdonalds.png" style="background-color: #264F36;" width="150" height="100%" />
+            <img class="logo" style="background-color: #264F36; padding: 10px;" src="@/assets/mcdonalds.png" height="150" />
         <div class="close">
             <RouterLink to="/">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

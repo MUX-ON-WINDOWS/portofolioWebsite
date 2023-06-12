@@ -41,6 +41,7 @@
             {imageUrl : "src/assets/goalKeeperLogo_MaxV2.png", contentName: "KeepersWebShop", sprint: "Sprint 2", linkPage: "/KeeperSprint2", backgroundColor: "#D3AE87", width: "300px", color: "black"},
             {imageUrl : "src/assets/mcdonalds.png", contentName: "MacDonalds EK 2024", sprint: "Sprint 1", linkPage: "/MacSprint1", backgroundColor: "#264F36", width: "300px", color: "white"},
             {imageUrl : "src/assets/mcdonalds.png", contentName: "MacDonalds EK 2024", sprint: "Sprint 2", linkPage: "/MacSprint2", backgroundColor: "#264F36", width: "300px", color: "white"},
+            {imageUrl : "src/assets/logo_wit.png", contentName: "Naakt", linkPage: "/naakt", backgroundColor: "#D3AE87", width: "350px", color: "black"},
         ], // Example data for the slides
       }
     },

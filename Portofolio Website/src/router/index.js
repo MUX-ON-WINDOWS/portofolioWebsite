@@ -37,6 +37,11 @@ const router = createRouter({
       path: '/MacSprint2',
       name: 'macSprint2',
       component: () => import('../views/MacSprint2.vue')
+    },
+    {
+      path: '/naakt',
+      name: 'naakt',
+      component: () => import('../views/Naakt.vue')
     }
   ]
 })

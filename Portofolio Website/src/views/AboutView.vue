@@ -41,6 +41,7 @@
           <li><a href="https://github.com/MUX-ON-WINDOWS/webbrowserGameJS">Mini game</a></li>
           <li><a href="https://git.fhict.nl/I509147/project-mccampaign">PenaltyShooter</a></li>
           <li><a href="https://github.com/MUX-ON-WINDOWS/KeeperWebshop.Vue">Keeperwebshop (eigen project)</a></li>
+          <li><a href="https://github.com/m3m3n70-0/Naakt">Naakt</a></li>
         </ul>
       </div>
     </div>
@@ -67,6 +68,8 @@
           <li><a href="https://i507258.hera.fhict.nl/Mac campaign/landen/Belgie/Dries Mertens.png">Voetbal kaarten</a></li>
           <li><a href="https://i507258.hera.fhict.nl/Mac campaign/MacTeam.ai">Speciale kaarten (met patroon)</a></li>
           <li><a href="https://i507258.hera.fhict.nl/KeepersWebShop/Logo/goalKeeperLogo_MaxV2.png">Logo</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/Naakt/DashboardDesignNaakt.pdf">Dashboard design</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/Carrousel%20protfolio.pdf">Portofolio design</a></li>
         </ul>
       </div>
     </div>
@@ -80,10 +83,11 @@
           veel data over bekent is. En als je data hebt gevonden moet je dit altijd goed controleren zodat je geen foute data gebruikt.
         <h3>Bewijs:</h3>
         <ul>
-          <li><a href="https://i507258.hera.fhict.nl/Kathleen/onderzoekPlanning.docx">Post tijden TikTok & Instagram</a></li>
-          <li><a href="https://i507258.hera.fhict.nl/research/Penalty Shooter research.docx">Penaltyshooter research</a></li>
-          <li><a href="https://i507258.hera.fhict.nl/research/Onderzoek framework eigen project.docx">Onderzoek framework eigen project</a></li>
-          <li><a href="https://i507258.hera.fhict.nl/research/Onderzoek prijs variantie keepers handschoenen.docx">Onderzoek prijzen keepershandschoenen</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/research/onderzoekPlanning_TikTok%26Instagram.pdf">Post tijden TikTok & Instagram</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/research/Penalty Shooter research.pdf">Penaltyshooter research</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/research/Onderzoek framework eigen project.pdf">Onderzoek framework eigen project</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/research/Onderzoek prijs variantie keepers handschoenen.pdf">Onderzoek prijzen keepershandschoenen</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/research/MacKaartenOnderzoek.pdf">Mac Donalds kaarten user test</a></li>
         </ul>
       </div>
     </div>

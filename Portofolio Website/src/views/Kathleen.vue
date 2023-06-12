@@ -48,7 +48,6 @@ import { RouterLink } from 'vue-router'
 
         <h1>Leeruitkomsten die ik aan toon in dit project:</h1>
             <div class="container_buttons">
-
                 <button><RouterLink to="/leeruitkomsten">Research</RouterLink></button>
                 <button><RouterLink to="/leeruitkomsten">INTERACTIVE MEDIA</RouterLink></button>
                 <button><RouterLink to="/leeruitkomsten">Design</RouterLink></button>
@@ -60,7 +59,6 @@ import { RouterLink } from 'vue-router'
 button {
     background-color: black;
     border: none;
-    color: #D3AE87;
     width: 30%;
     padding: 15px 32px;
     text-align: center;
@@ -85,7 +83,7 @@ button {
 .container_Kathleen_content {
     display: flex;
     flex-direction: column;
-    height: 210vh;
+    height: 230vh;
     margin-left: 10%;
     margin-right: 10%;
 }
