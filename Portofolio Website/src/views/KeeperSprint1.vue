@@ -20,20 +20,29 @@ import { RouterLink } from 'vue-router'
             <h2>Sprint 1</h2>
 
             <h3>Moodboard:</h3>
-            Voor dat ik begon met designen heb ik eerst een moodboard gemaakt in figma. Hier voor heb ik inspiratie opgedaan in keeperwebshops en hier passende afbeeldingen voor gezocht.
-
+            <p>
+                Voor dat ik begon met designen heb ik eerst een <a href="https://www.figma.com/file/98FJ9ml8PfQ3Ie24TaC50l/Untitled?type=design&node-id=0%3A1&t=Vc3TbJxTVCx1d2UM-1">moodboard</a> gemaakt in figma. Hier voor heb ik inspiratie opgedaan in keeperwebshops en hier passende afbeeldingen voor gezocht.
+            </p>
             <h3>Stylescape:</h3>
-            Na het maken van mijn moodboard ben ik begonnen met het filteren van mijn moodboard. Dit resultaat werd mijn Stylescape.
-
-            <h3>Website design:</h3>
-            Eerst heb ik onderzoek gedaan naar bestaande webshops voor keepers hier bleek dat er weinig website waren voor keepers. Daarom heb ik ook naar andere webshops gezocht die voor voetbal of voor hockey waren. Na dit onderzoek ben ik begonnen met mijn eerste paar versie’s.
-            <div class="container_images">
-                <img src="@/assets/BlueBGLogoV2.png" width="100%" />
-                <img src="@/assets/goalKeeperLogo_MaxV2.png" width="100%"/>
-              <img src="@/assets/YellowBGLogoV2.png" width="100%" />
+            <p>
+                Na het maken van mijn moodboard ben ik begonnen met het maken van mijn <a href="https://www.figma.com/file/98FJ9ml8PfQ3Ie24TaC50l/Untitled?type=design&node-id=0%3A1&t=Vc3TbJxTVCx1d2UM-1">stylescape</a> met behulp van moodboard. Hierbij heb ik gekeken naar de kleuren die ik wilde gebruiken.
+            </p>
+            <div class="container_stylescape">
+                <img src="@/assets/stylescapeEigenProject.png"/>
             </div>
+            <h3>Website design:</h3>
+            <p>
+                Eerst heb ik onderzoek gedaan naar bestaande webshops voor keepers hier bleek dat er weinig website waren voor keepers. Daarom heb ik ook naar andere webshops gezocht die voor voetbal of voor hockey waren. Na dit onderzoek ben ik begonnen met mijn eerste paar versie’s.
+            </p>
             <h3>Logo:</h3>
-            Voor dit logo heb ik eerst een keeper gemaakt die duikt. Hierna heb ik gestest op wat voor kleur dit logo het beste gaat. Hier heb ik feedback over gevraagd en kreeg ik te horen dat er tekst miste van de naam de webshop. Nadat ik dit had toegevoegd had ik een logo.
+            <p>
+                Voor dit logo ben ik begonnen met het creëren van een afbeelding van een duikende keeper. Vervolgens heb ik verschillende kleuren getest om te bepalen welke het beste bij dit logo pasten. Met de feedback Pieter heb ik een hoop nuttige dingen kunnen aanpassen aan mijn logo, en ook gaf hij aan dat de naam van de webshop ontbrak. Nadat ik de naam had toegevoegd, had ik uiteindelijk een compleet logo.
+            </p>
+            <div class="container_images">
+                <img src="@/assets/BlueBGLogoV2.png"/>
+                <img src="@/assets/goalKeeperLogo_MaxV2.png">
+              <img src="@/assets/YellowBGLogoV2.png"/>
+            </div>
 
             <h1>Leeruitkomsten die ik aan toon in dit project:</h1>
             <div class="container_buttons">
@@ -61,6 +70,13 @@ button {
     background-color: #D3AE87;
     color: black;
 }
+.container_stylescape {
+    height: 600px;
+}
+.container_stylescape img {
+    height: 100%;
+    width: 100% !important;
+}
 .container_images {
     height: 120px;
     margin: 10px;
@@ -82,7 +98,7 @@ button {
 .container_KeeperSprint1_content {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 170vh;
     margin-left: 10%;
     margin-right: 10%;
 }

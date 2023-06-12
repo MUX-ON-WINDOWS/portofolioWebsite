@@ -20,11 +20,21 @@ import { RouterLink } from 'vue-router'
             <h2>Sprint 2</h2>
 
             <h3>Onderzoek Vue.js en React.js</h3>
-            <p>Ik ben begonnen met een onderzoek tussen 2 frameworks, deze waren Vue.js en React.js. In dit onderzoek heb ik gekeken welk framework het beste was voor mijn project. Uiteindelijk heb ik gekozen voor Vue.js omdat Vue.js veel makkelijker is te leren dan React.js in de korte tijd die ik heb voor dit project.</p>
+            <!-- <div class="containerPenaltyShooterImages">
+                <img src="@/assets/webshop.png"/>
+            </div> -->
+            <p>Ik ben begonnen met een <a href="https://i507258.hera.fhict.nl/research/Onderzoek framework eigen project.pdf">onderzoek</a>
+                tussen 2 frameworks, deze waren Vue.js en React.js. In dit onderzoek heb ik gekeken welk framework het beste was voor mijn project.
+                Uiteindelijk heb ik gekozen voor Vue.js. Omdat Vue.js veel makkelijker is te leren dan React.js in de korte tijd die ik heb voor dit project.
+            </p>
 
             <h3>Development website:</h3>
-            <p>In deze sprint heb ik vooral gefocust op het maken van de functionaliteit van de webshop denk hierbij aan het toevoegen van items in je shopping cart. Dit heb gedaan met behulp van een store. Dit houd in dat lokaal je je data aangeroepen kan worden over verschillende components. </p>
-
+            <div class="containerPenaltyShooterImages">
+                <img src="@/assets/webshop.png"/>
+            </div>
+            <p>In deze <a href="https://github.com/MUX-ON-WINDOWS/KeeperWebshop.Vue">sprint</a> heb ik vooral gefocust
+                op het maken van de functionaliteit van de webshop denk hierbij aan het toevoegen van items in je shopping cart.
+                Dit heb gedaan met behulp van een store. Dit houd in dat lokaal je je data aangeroepen kan worden over verschillende components. </p>
             <h1>Leeruitkomsten die ik aan toon in dit project:</h1>
             <div class="container_buttons">
                 <button><RouterLink to="/leeruitkomsten">Research</RouterLink></button>
@@ -34,10 +44,17 @@ import { RouterLink } from 'vue-router'
     </div>
 </template>
 <style>
+.containerPenaltyShooterImages{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.containerPenaltyShooterImages img {
+    height: 300px;
+}
 button {
     background-color: black;
     border: none;
-    color: #D3AE87;
     width: 30%;
     padding: 15px 32px;
     text-align: center;
