@@ -4,6 +4,10 @@
   --vc-pgn-background-color: gray !important;
   --vc-icn-width: 4em;
 }
+button a {
+  color: #D3AE87 !important;
+  text-decoration: none;
+}
 .carousel__icon {
   height: 50px;
   width: 50px;
