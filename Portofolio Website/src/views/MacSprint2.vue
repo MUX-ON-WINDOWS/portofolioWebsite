@@ -15,17 +15,24 @@ import { RouterLink } from 'vue-router'
         </div>
     </div>
       <div class="container_MacSprint2_content">
-        <h1>McDonald’s</h1>
+        <h1>MacDonalds EK 2024 sprint 2</h1>
 
         <h2>Over het project:</h2>
-          In dit project gaan we een campagne maken voor de MacDonalds. De campagne gaat over het EK 2024 voor de MacDonalds verder laar ik zien in wat ik allemaal heb gemaakt in dit project.
+            <p>
+                In dit project gaan we een campagne maken voor de MacDonalds. De campagne gaat over het EK 2024 voor de MacDonalds, verder laat ik zien in wat ik allemaal heb gemaakt in dit project.
+            </p>
         <h2>Sprint 2</h2>
 
         <h3>Onderzoek penaltyShooter:</h3>
-        Voordat ik verder ben gegaan met het realiseren van de penalty shooter ben ik begonnen met een onderzoek naar bestaande penalty shooters.
-
-        <h3>Prototype penaltyShooter:</h3>
-        Bij deze sprint ben ik begonnen met maken van de penaltyShooter. Hier heb veel verschillende dingen geleerd zoals werken met animate.js, of het maken van een timing balk.
+        <p>
+            Voordat ik verder ben gegaan met het realiseren van de penalty shooter ben ik begonnen met een <a href="https://i507258.hera.fhict.nl/research/Penalty Shooter research.pdf">onderzoek</a> naar bestaande penalty shooters.
+            Ik wou gaan zoeken naar bestaande projecten en hoe deze waren opgebouwd, en wat voor technieken ze hebben gebruikt. Helaas heb ik niet echt goede projecten kunnen vinden die mij verder konden helpen.
+        </p>
+        <h3>Prototype penaltyShooter sprint 2:</h3>
+        <p>
+            Bij deze sprint ben ik begonnen met maken van de <a href="https://git.fhict.nl/I509147/project-mccampaign">penaltyShooter</a>. Hier moest ik met verschillende dingen rekening houden zoals, animaties voor de bal, animaties wanneer er wordt gescoord of wanneer er wordt gemist.
+            Ook moest ik er voor zorgen dat er een werkend scorebord was en ook een timing balk die de kans van scoren bepaalt
+        </p>
         <div class="containerPenaltyShooterImages">
             <img src="@/assets/penaltyShooter.png" width="100%" />
             <img src="@/assets/animation.png" width="100%" />
@@ -67,7 +74,7 @@ button {
 .container_MacSprint2_content {
     display: flex;
     flex-direction: column;
-    height: 135vh;
+    height: 100%;
     margin-left: 10%;
     margin-right: 10%;
 }

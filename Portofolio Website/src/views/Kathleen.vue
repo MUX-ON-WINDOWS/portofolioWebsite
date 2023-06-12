@@ -24,27 +24,40 @@ import { RouterLink } from 'vue-router'
         <h3>Producten</h3>
 
         <h3>Moodboard:</h3>
-            <p>
-                Voor het maken van de moodboard heb ik inspiratie opgedaan door onderzoek te doen wat voor persoon Kathleen is.
-                Hierna heb ik passende afbeeldingen gezocht voor mijn moodboard.
-            </p>
-        <img src="@/assets/styleScape_Max.png" width="100%" />
-        <h3>Stylescape:</h3>
-            <p>In deze Stylescape heb ik alle data die ik heb verzameld in de moodboard deze heb gebruikt om een stylescape te maken. </p>
+        <p>
+            Voor het maken van de <a href="https://i507258.hera.fhict.nl/Kathleen/Moodboard_KathleenWillems_Max.png">moodboard</a> heb ik inspiratie opgedaan door onderzoek te doen wat voor persoon Kathleen is.
+            Hierna heb ik passende afbeeldingen gezocht voor mijn moodboard.
+        </p>
 
-        <img src="@/assets/KathleenWillemsInsta_Max.png" width="60%"  />
+        <h3>Stylescape:</h3>
+        <p>In deze <a href="https://i507258.hera.fhict.nl/Kathleen/styleScape_Max.png">Stylescape</a> heb ik alle data die ik heb verzameld in de moodboard deze heb gebruikt om een stylescape te maken. </p>
+        <img src="@/assets/styleScape_Max.png" width="100%" />
+
         <h3> Instagram pagina:</h3>
-            <p>
-                Voordat ik begon met het maken van mijn versie van de Instagram pagina heb ik eerst onderzoek gedaan hoe andere pagina’s er uitzagen.
-                Hierna ben ik begonnen met het realiseren van de pagina in Illustrator.
-            </p>
+        <p>
+            Voordat ik begon met het maken van mijn versie van de <a href="https://i507258.hera.fhict.nl/Kathleen/Brand%20guide%20kathleen.pdf">Instagram-pagina</a> heb ik eerst onderzoek gedaan hoe andere pagina’s er uitzagen.
+            Hierna ben ik begonnen met het realiseren van de Instagram-pagina in Illustrator.
+        </p>
+        <img src="@/assets/KathleenWillemsInsta_Max.png" width="60%"/>
+
         <h3>Brandguide:</h3>
-            <p>Bij de brandguide hebben we als groep alle stylescapes gecombineerd. Hierover kreeg ik een paar de vraag online wat ik van hun keuzes vond en gaf ik hier feedback over. (bussen staakte hierdoor kon ik niet naar school komen).</p>
+        <p>
+            De <a href="https://i507258.hera.fhict.nl/Kathleen/Brand%20guide%20kathleen.pdf">brandguide</a> hebben we als groep gemaakt door middel van alle stylescapes te combineren.
+        </p>
+
         <h3>Content strategie (planning):</h3>
-            <p>Bij het maken van de planning heb ik eerst onderzoek gedaan wanneer de beste tijden waren om je post te posten. Hierna heb ik een week planning uitgeschreven. Hier heb ik ook tijden aangeven wanneer je het beste op comments kan reageren.</p>
+        <p>
+            Bij het maken van de <a href="https://i507258.hera.fhict.nl/research/onderzoekPlanning_TikTok%26Instagram.pdf">planning</a> heb ik eerst onderzoek gedaan wanneer de beste tijden waren om je post te posten.
+            Hierna heb ik een week planning uitgeschreven. Hier heb ik ook tijden aangeven wanneer je het beste op comments kan reageren.
+        </p>
 
         <h3>Website design:</h3>
-            <p>Eerst heb ik onderzoek gedaan naar de bestaande website van Kathleen. Hier heb ik de bestaande data overgenomen. Bij het maken van de website heb ik het per sectie opgebouwd, denk aan eerst de home screen hierna de about sectie. Elke keer dat als ik een versie had afgerond heb ik om feedback gevraagd. Deze feedback heb ik ook steeds verwerkt in een nieuwe versie.</p>
+        <p>
+            Eerst ben ik gaan kijken wat Kathleen allemaal op haar huidige website heeft staan. Hier heb ik de bestaande data overgenomen.
+            Bij het maken van de website heb ik het per sectie opgebouwd,
+            denk aan eerst de homescreen hierna de about sectie. Elke keer dat als ik een versie had afgerond heb ik om feedback gevraagd.
+            Deze feedback heb ik ook steeds verwerkt in een nieuwe versie.
+        </p>
 
         <h1>Leeruitkomsten die ik aan toon in dit project:</h1>
             <div class="container_buttons">
@@ -83,7 +96,7 @@ button {
 .container_Kathleen_content {
     display: flex;
     flex-direction: column;
-    height: 230vh;
+    height: 100%;
     margin-left: 10%;
     margin-right: 10%;
 }

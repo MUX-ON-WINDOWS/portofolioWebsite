@@ -13,23 +13,41 @@ import { RouterLink } from 'vue-router'
                 </svg>
             </RouterLink>
         </div>
-    </div>
-    <div class="container_MacSprint1_content">
-      <h1>McDonald’s</h1>
+        </div>
+        <div class="container_MacSprint1_content">
+            <h1>MacDonalds EK 2024 sprint 1</h1>
 
-      <h2>Over het project:</h2>
-        In dit project gaan we een campagne maken voor de MacDonalds. De campagne gaat over het EK 2024 voor de MacDonalds verder laar ik zien in wat ik allemaal heb gemaakt in dit project.
-      <h2>Sprint 1</h2>
+            <h2>Over het project:</h2>
+            <p>
+                In dit project gaan we een campagne maken voor de MacDonalds.
+                De campagne gaat over het EK 2024 voor de MacDonalds verder laat ik zien in wat ik allemaal heb gemaakt in dit project.
+            </p>
+            <h2>Sprint 1</h2>
 
-      <h3>Land kaarten:</h3>
-        Bij het maken van deze kaarten heb ik veel ideeën opgedaan van bestaande FIFA kaarten. Van deze ideeën heb ik mijn iteraties gemaakt. En uiteindelijk met een eind versie gekomen.
-      <h3>Speciale MacDonalds kaarten:</h3>
-        Hier ben ik gaan testen hoe je het beste een kaart speciaal kan maken met een Macdonalds element. Hier heb ik gekozen voor een patroon met het Mac logo, een hamburger en een happy meal. Na een hoop iteraties heb ik hier ook een eind versie voor gemaakt.
-
-      <h3>Prototype penaltyShooter:</h3>
-        Bij het maken van de prototype van de penaltyShooter heb ik het design gebruikt van Joey. Voor dat ik ben begonnen met het maken van de prototype, heb ik eerst alles uitgewerkt in een schema hoe ik de opdracht zag en waar ik mogelijk op vast kan lopen.
-
-        <h1>Leeruitkomsten die ik aan toon in dit project:</h1>
+            <h3>Speciale MacDonalds kaarten:</h3>
+            <p>
+                Ik ben begonnen met het maken van <a href="https://i507258.hera.fhict.nl/Mac campaign/itteratiesMACspecialTeam.pdf">speciale kaarten</a>
+                voor de MacDonalds(het MacDonalds team). Hier ben ik gaan werken met een patroon die ik als achtergrond heb gebruikt.
+                Vervolgens ben ik gaan testen met kleuren wat het beste bij het patroon paste. Hierna heb ik wat getest met de diepte in de kaarten.
+            </p>
+            <div class="containerImages">
+                <img src="@/assets/HappyMealV2.png"/>
+            </div>
+            <h3>Voetbal kaarten:</h3>
+            <p>
+                Voor het creeeren van de <a href="https://i507258.hera.fhict.nl/Mac campaign/Iteraties%20voetbal%20kaartjes.pdf">voetbal kaarten</a> heb ik gezocht naar bestaande
+                voetbal kaarten. Hier heb ik een hoop inspiratie uit gehaald. Ook heb ik veel getest met verschillende kleuren en vormen. Het lastigste was om het MAC Donalds element
+                er in te verwerken. Dit heb ik gedaan door de kleuren van de MacDonalds te gebruiken en de M van MacDonalds in de kaart te verwerken.
+            </p>
+            <div class="containerImages">
+                <img src="@/assets/Thomas Müller.png"/>
+            </div>
+            <h3>Prototype penaltyShooter sprint 1:</h3>
+            <p>
+                Bij het maken van het prototype van de <a href="https://git.fhict.nl/I509147/project-mccampaign">penaltyShooter</a> heb ik het design gebruikt van Joey. Voor dat ik ben begonnen met het maken van het prototype,
+                heb ik eerst alles uitgewerkt in een schema hoe ik de opdracht zag en waar ik mogelijk op vast kon gaan lopen.
+            </p>
+            <h1>Leeruitkomsten die ik aan toon in dit project:</h1>
             <div class="container_buttons">
                 <button><RouterLink to="/leeruitkomsten">Research</RouterLink></button>
                 <button><RouterLink to="/leeruitkomsten">INTERACTIVE MEDIA</RouterLink></button>
@@ -40,6 +58,12 @@ import { RouterLink } from 'vue-router'
     </div>
 </template>
 <style>
+.containerImages {
+    height: 300px;
+}
+.containerImages img {
+    height: 300px;
+}
 button {
     background-color: black;
     border: none;
@@ -68,7 +92,7 @@ button {
 .container_MacSprint1_content {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 100%;
     margin-left: 10%;
     margin-right: 10%;
 }

@@ -98,7 +98,7 @@ button {
 .container_KeeperSprint1_content {
     display: flex;
     flex-direction: column;
-    height: 170vh;
+    height: 100%;
     margin-left: 10%;
     margin-right: 10%;
 }

@@ -64,7 +64,7 @@ button {
 .container_MacSprint2_content {
     display: flex;
     flex-direction: column;
-    height: 135vh;
+    height: 100%;
     margin-left: 10%;
     margin-right: 10%;
 }

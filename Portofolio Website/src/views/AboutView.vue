@@ -19,7 +19,7 @@
               <li><a href="https://www.figma.com/file/t62ZqG0sSBJiLgyNA3QW5O/Katleen-Website?node-id=0%3A1&t=2FSAV7a3mpk1iuD1-1">Website design Kathleen.</a></li>
               <li><a href="https://www.figma.com/file/98FJ9ml8PfQ3Ie24TaC50l/Untitled?node-id=0%3A1&t=cz8sJ2BzIGLVa301-1">Website design Eigen project.</a></li>
               <li><a href="https://i507258.hera.fhict.nl/Mac campaign/landen/Belgie/Dries Mertens.png">Kaarten landen</a></li>
-              <li><a href="https://i507258.hera.fhict.nl/Mac campaign/MacTeam.ai">Speciaal Macdonalds kaarten</a></li>
+              <li><a href="https://i507258.hera.fhict.nl/Mac campaign/itteratiesMACspecialTeam.pdf">Speciaal Macdonalds kaarten</a></li>
             </ul>
           </div>
       </div>
@@ -84,10 +84,10 @@
         <h3>Bewijs:</h3>
         <ul>
           <li><a href="https://i507258.hera.fhict.nl/research/onderzoekPlanning_TikTok%26Instagram.pdf">Post tijden TikTok & Instagram</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/research/MacKaartenOnderzoek.pdf">Mac Donalds kaarten user test</a></li>
           <li><a href="https://i507258.hera.fhict.nl/research/Penalty Shooter research.pdf">Penaltyshooter research</a></li>
           <li><a href="https://i507258.hera.fhict.nl/research/Onderzoek framework eigen project.pdf">Onderzoek framework eigen project</a></li>
           <li><a href="https://i507258.hera.fhict.nl/research/Onderzoek prijs variantie keepers handschoenen.pdf">Onderzoek prijzen keepershandschoenen</a></li>
-          <li><a href="https://i507258.hera.fhict.nl/research/MacKaartenOnderzoek.pdf">Mac Donalds kaarten user test</a></li>
         </ul>
       </div>
     </div>

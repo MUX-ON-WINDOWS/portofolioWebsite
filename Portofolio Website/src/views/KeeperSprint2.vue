@@ -20,9 +20,6 @@ import { RouterLink } from 'vue-router'
             <h2>Sprint 2</h2>
 
             <h3>Onderzoek Vue.js en React.js</h3>
-            <!-- <div class="containerPenaltyShooterImages">
-                <img src="@/assets/webshop.png"/>
-            </div> -->
             <p>Ik ben begonnen met een <a href="https://i507258.hera.fhict.nl/research/Onderzoek framework eigen project.pdf">onderzoek</a>
                 tussen 2 frameworks, deze waren Vue.js en React.js. In dit onderzoek heb ik gekeken welk framework het beste was voor mijn project.
                 Uiteindelijk heb ik gekozen voor Vue.js. Omdat Vue.js veel makkelijker is te leren dan React.js in de korte tijd die ik heb voor dit project.
