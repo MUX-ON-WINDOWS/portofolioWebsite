@@ -17,8 +17,10 @@
             <h3>Bewijs:</h3>
             <ul>
               <li><a href="https://www.figma.com/file/t62ZqG0sSBJiLgyNA3QW5O/Katleen-Website?node-id=0%3A1&t=2FSAV7a3mpk1iuD1-1">Website design Kathleen.</a></li>
-              <li><a href="https://www.figma.com/file/98FJ9ml8PfQ3Ie24TaC50l/Untitled?node-id=0%3A1&t=cz8sJ2BzIGLVa301-1">Website design Eigen project.</a></li>
-              <li><a href="https://i507258.hera.fhict.nl/Mac campaign/landen/Belgie/Dries Mertens.png">Kaarten landen</a></li>
+              <li><a href="https://i507258.hera.fhict.nl/Kathleen/ItteratiesKathleenWebsiteDesign.pdf">Uitleg Kathleen</a></li>
+              <li><a href="https://www.figma.com/file/98FJ9ml8PfQ3Ie24TaC50l/Untitled?node-id=0%3A1&t=cz8sJ2BzIGLVa301-1">Website design Eigen project (design versies).</a></li>
+              <li><a href="https://i507258.hera.fhict.nl/KeepersWebShop/Iteratie%20beschrijving%20eigen%20project%20design%20week%203.pdf">Uitleg eigen project sprint 3</a></li>
+              <li><a href="https://i507258.hera.fhict.nl/Mac campaign/Iteraties%20voetbal%20kaartjes.pdf">Kaarten landen</a></li>
               <li><a href="https://i507258.hera.fhict.nl/Mac campaign/itteratiesMACspecialTeam.pdf">Speciaal Macdonalds kaarten</a></li>
             </ul>
           </div>

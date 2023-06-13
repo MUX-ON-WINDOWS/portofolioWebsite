@@ -16,7 +16,10 @@ import { RouterLink } from 'vue-router'
     </div>
     <div class="container_KeeperSprint1_content">
             <h1>Over het project</h1>
-            <p>In dit project ga ik een keeperswebshop realiseren. Hierbij begin ik met helemaal niks en ga ik alles zelf maken. Denk aan een website, logo, design en etc. Deze webshop word bedoeld voor keepers om keepersspullen te kopen.</p>
+            <p>
+                Tijdens dit project heb ik een keeperwebshop gemaakt. Mijn doel is om een webshop te maken waar keepers spullen kunnen kopen.
+                (Denk hierbij aan keepershandschoenen en keeperskleding). Verder maak ik een website design, logo en een website.
+            </p>
             <h2>Sprint 1</h2>
 
             <h3>Moodboard:</h3>

@@ -29,6 +29,11 @@ const router = createRouter({
       component: () => import('../views/KeeperSprint2.vue')
     },
     {
+      path: '/KeeperSprint3',
+      name: 'keeperSprint3',
+      component: () => import('../views/KeeperSprint3.vue')
+    },
+    {
       path: '/MacSprint1',
       name: 'macSprint1',
       component: () => import('../views/MacSprint1.vue')

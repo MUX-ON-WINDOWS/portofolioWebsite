@@ -19,24 +19,25 @@ import { RouterLink } from 'vue-router'
 
             <h2>Over het project:</h2>
             <p>
-                In dit project gaan we een campagne maken voor de MacDonalds.
-                De campagne gaat over het EK 2024 voor de MacDonalds verder laat ik zien in wat ik allemaal heb gemaakt in dit project.
+                We maken een campagne voor de MacDonalds. Dit project omvat meerdere sprints. De campagne gaat over het EK 2024 voor de MacDonalds verder laat ik zien en wat ik allemaal heb gemaakt in dit project.
             </p>
             <h2>Sprint 1</h2>
 
             <h3>Speciale MacDonalds kaarten:</h3>
             <p>
                 Ik ben begonnen met het maken van <a href="https://i507258.hera.fhict.nl/Mac campaign/itteratiesMACspecialTeam.pdf">speciale kaarten</a>
-                voor de MacDonalds(het MacDonalds team). Hier ben ik gaan werken met een patroon die ik als achtergrond heb gebruikt.
-                Vervolgens ben ik gaan testen met kleuren wat het beste bij het patroon paste. Hierna heb ik wat getest met de diepte in de kaarten.
+                voor de MacDonalds (het MacDonalds team). Hier heb ik een patroon gemaakt die als achtergrond wordt gebruikt.
+                Vervolgens ben ik gaan testen met kleuren en diepte in de kaarten.
             </p>
             <div class="containerImages">
                 <img src="@/assets/HappyMealV2.png"/>
             </div>
             <h3>Voetbal kaarten:</h3>
             <p>
-                Voor het creeeren van de <a href="https://i507258.hera.fhict.nl/Mac campaign/Iteraties%20voetbal%20kaartjes.pdf">voetbal kaarten</a> heb ik gezocht naar bestaande
-                voetbal kaarten. Hier heb ik een hoop inspiratie uit gehaald. Ook heb ik veel getest met verschillende kleuren en vormen. Het lastigste was om het MAC Donalds element
+                Voor het creëren van de <a href="https://i507258.hera.fhict.nl/Mac campaign/Iteraties%20voetbal%20kaartjes.pdf">voetbalkaarten</a>
+                heb ik gezocht naar bestaande voetbalkaarten (denk aan FIFA kaarten en panini kaarten).
+                Hier heb ik een hoop inspiratie uit gehaald. Ook heb ik veel getest met verschillende kleuren en vormen.
+                Het lastigste was om het MAC Donalds element
                 er in te verwerken. Dit heb ik gedaan door de kleuren van de MacDonalds te gebruiken en de M van MacDonalds in de kaart te verwerken.
             </p>
             <div class="containerImages">
@@ -44,8 +45,9 @@ import { RouterLink } from 'vue-router'
             </div>
             <h3>Prototype penaltyShooter sprint 1:</h3>
             <p>
-                Bij het maken van het prototype van de <a href="https://git.fhict.nl/I509147/project-mccampaign">penaltyShooter</a> heb ik het design gebruikt van Joey. Voor dat ik ben begonnen met het maken van het prototype,
-                heb ik eerst alles uitgewerkt in een schema hoe ik de opdracht zag en waar ik mogelijk op vast kon gaan lopen.
+                Bij het maken van het prototype van de <a href="https://git.fhict.nl/I509147/project-mccampaign">penaltyShooter</a>
+                heb ik het design gebruikt van Joey. Voordat ik ben begonnen met het maken van het prototype,
+                heb ik eerst alles uitgewerkt in een schema hoe ik de opdracht zag en waar ik mogelijk op vast kon lopen.
             </p>
             <h1>Leeruitkomsten die ik aan toon in dit project:</h1>
             <div class="container_buttons">
