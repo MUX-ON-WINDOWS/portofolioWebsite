@@ -21,12 +21,8 @@ import { RouterLink } from 'vue-router'
         <p>
             In dit project hebben we een website gemaakt voor een magazine NAAKT. NAAKT is een magazine dat speciaal is ontworpen voor
             jongeren tussen de 18 en 25 jaar oud en geschreven is door studenten van de ACE.
-            Zelf heb ik me gericht op het maken van een Dashboard design en de development van de backend in de website =.
+            Zelf heb ik me gericht op het maken van een Dashboard design en de development van de backend in de website.
         </p>
-
-        In dit project hebben we een brand gemaakt voor Kathleen Willems.
-        Hieronder leg ik uit wat ik heb gemaakt in dit project en hoe ik mijn leerdoelen heb gerealiseerd.
-
         <h3>Dashboard design:</h3>
         <p>
             In dit project heb ik een dashboard design gemaakt voor een magazine website. In dit dashboard moeten de gebruikers (eigenaar van het blad)
