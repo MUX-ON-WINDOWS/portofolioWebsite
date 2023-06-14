@@ -17,7 +17,7 @@ import { RouterLink } from 'vue-router'
       <div class="container_MacSprint2_content">
         <h1>MacDonalds EK 2024 sprint 2</h1>
 
-        <h2>Over het project:</h2>
+        <h2>Over het project</h2>
             <p>
                 We maken een campagne voor de MacDonalds. Dit project omvat meerdere sprints.
                 De campagne gaat over het EK 2024 voor de MacDonalds verder laat ik zien en wat ik allemaal heb gemaakt in dit project.

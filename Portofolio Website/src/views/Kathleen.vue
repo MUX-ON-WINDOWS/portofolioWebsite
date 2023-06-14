@@ -60,7 +60,7 @@ import { RouterLink } from 'vue-router'
         <h3>Website design:</h3>
         <p>
             Eerst ben ik gaan kijken wat Kathleen allemaal op haar huidige website heeft staan. De bestaande data heb ik overgenomen.
-            Bij het maken van de website heb ik het per sectie opgebouwd (Denk aan opbouw homescreen en about sectie).
+            Bij het maken van de <a href="https://i507258.hera.fhict.nl/Kathleen/ItteratiesKathleenWebsiteDesign.pdf">website</a> heb ik het per sectie opgebouwd (Denk aan opbouw homescreen en about sectie).
             Bij elke afgeronde versie heb ik om feedback gevraagd. Deze feedback heb ik ook steeds verwerkt in de nieuwe versie.
         </p>
 

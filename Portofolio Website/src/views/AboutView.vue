@@ -17,9 +17,10 @@
             <h3>Bewijs:</h3>
             <ul>
               <li><a href="https://www.figma.com/file/t62ZqG0sSBJiLgyNA3QW5O/Katleen-Website?node-id=0%3A1&t=2FSAV7a3mpk1iuD1-1">Website design Kathleen.</a></li>
-              <li><a href="https://i507258.hera.fhict.nl/Kathleen/ItteratiesKathleenWebsiteDesign.pdf">Uitleg Kathleen</a></li>
-              <li><a href="https://www.figma.com/file/98FJ9ml8PfQ3Ie24TaC50l/Untitled?node-id=0%3A1&t=cz8sJ2BzIGLVa301-1">Website design Eigen project (design versies).</a></li>
-              <li><a href="https://i507258.hera.fhict.nl/KeepersWebShop/Iteratie%20beschrijving%20eigen%20project%20design%20week%203.pdf">Uitleg eigen project sprint 3</a></li>
+              <li><a href="https://i507258.hera.fhict.nl/Kathleen/ItteratiesKathleenWebsiteDesign.pdf">Uitleg website design Kathleen process</a></li>
+              <li><a href="https://www.figma.com/file/98FJ9ml8PfQ3Ie24TaC50l/Untitled?node-id=0%3A1&t=cz8sJ2BzIGLVa301-1">Website design keeperswebshop</a></li>
+              <li><a href="https://i507258.hera.fhict.nl/KeepersWebShop/Iteratie%20beschrijving%20eigen%20project%20design%20week%203.pdf">Uitleg keeperswebshop process sprint 3</a></li>
+              <li><a href="https://xd.adobe.com/view/fbeddc70-d873-478e-a813-c343c2a11ab6-aebe/screen/25924c9e-085e-4679-bc29-c6d10988ec70">Portfolio design</a></li>
               <li><a href="https://i507258.hera.fhict.nl/Mac campaign/Iteraties%20voetbal%20kaartjes.pdf">Kaarten landen</a></li>
               <li><a href="https://i507258.hera.fhict.nl/Mac campaign/itteratiesMACspecialTeam.pdf">Speciaal Macdonalds kaarten</a></li>
             </ul>
@@ -42,8 +43,9 @@
           <li><a href="https://git.fhict.nl/I507258/bingojavascript">Bingo kaart generator</a></li>
           <li><a href="https://github.com/MUX-ON-WINDOWS/webbrowserGameJS">Mini game</a></li>
           <li><a href="https://git.fhict.nl/I509147/project-mccampaign">PenaltyShooter</a></li>
-          <li><a href="https://github.com/MUX-ON-WINDOWS/KeeperWebshop.Vue">Keeperwebshop (eigen project)</a></li>
-          <li><a href="https://github.com/m3m3n70-0/Naakt">Naakt</a></li>
+          <li><a href="https://github.com/MUX-ON-WINDOWS/KeeperWebshop.Vue">Keeperwebshop</a></li>
+          <li><a href="https://github.com/m3m3n70-0/Naakt">NAAKT</a></li>
+          <li><a href="">Code Portfolio</a></li>
         </ul>
       </div>
     </div>
@@ -70,8 +72,9 @@
           <li><a href="https://i507258.hera.fhict.nl/Mac campaign/landen/Belgie/Dries Mertens.png">Voetbal kaarten</a></li>
           <li><a href="https://i507258.hera.fhict.nl/Mac campaign/MacTeam.ai">Speciale kaarten (met patroon)</a></li>
           <li><a href="https://i507258.hera.fhict.nl/KeepersWebShop/Logo/goalKeeperLogo_MaxV2.png">Logo</a></li>
-          <li><a href="https://i507258.hera.fhict.nl/Naakt/DashboardDesignNaakt.pdf">Dashboard design</a></li>
-          <li><a href="https://i507258.hera.fhict.nl/Carrousel%20protfolio.pdf">Portofolio design</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/Naakt/DashboardDesignNaakt.pdf">Dashboard design NAAKT</a></li>
+          <li><a href="https://xd.adobe.com/view/fbeddc70-d873-478e-a813-c343c2a11ab6-aebe/screen/25924c9e-085e-4679-bc29-c6d10988ec70">Portfolio design</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/Carrousel%20protfolio.pdf">Portfolio design feedback</a></li>
         </ul>
       </div>
     </div>
@@ -126,7 +129,7 @@
           of je zo goed te werk ging.
         <h3>Bewijs:</h3>
         <ul>
-          <li><a href="https://i507258.hera.fhict.nl/">Portofolio</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/">Portfolio</a></li>
           <li><a href="https://fhict.instructure.com/courses/12834/external_tools/1067">Feedpulse MacDonalds</a></li>
           <li><a href="https://fhict.instructure.com/courses/12834/external_tools/1067">Feedpulse eigenproject</a></li>
         </ul>

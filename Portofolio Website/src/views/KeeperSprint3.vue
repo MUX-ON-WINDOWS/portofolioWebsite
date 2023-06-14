@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router'
 <template>
     <div class="container_background">
         <div class="top_section">
-        <img  class="logo" src="@/assets/goalKeeperLogo_MaxV2.png" width="246" height="125" />
+        <img  class="logo" src="@/assets/goalKeeperLogo_MaxV2.png" width="168" height="125" />
         <div class="close">
             <RouterLink to="/">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -15,31 +15,35 @@ import { RouterLink } from 'vue-router'
         </div>
     </div>
     <div class="container_KeeperSprint1_content">
-            <h1>Over het project</h1>
+            <h1>Keeperswebshop</h1>
+            <h2>Over het project</h2>
             <p>
-                Tijdens dit project heb ik een keeperwebshop gemaakt. Mijn doel is om een webshop te maken waar keepers spullen kunnen kopen.
+                Tijdens dit project heb ik een keeperswebshop gemaakt. Mijn doel is om een webshop te maken waar keepers spullen kunnen kopen
                 (Denk hierbij aan keepershandschoenen en keeperskleding). Verder maak ik een website design, logo en een website.
             </p>
             <h2>Sprint 3</h2>
 
-            <h3>Redesign webshop</h3>
+            <h3>Website design sprint 3:</h3>
             <p>
+                Het design die is gemaakt in sprint 1 was nog niet af. Voordat ik verder ging met het design heb ik eerst feedback gevraagd aan Pieter.
+                Deze feedback is verwerkt in het <a href="https://i507258.hera.fhict.nl/KeepersWebShop/Iteratie%20beschrijving%20eigen%20project%20design%20week%203.pdf">design</a>
+                van de keeperswebshop.
             </p>
+            <div class="containerPenaltyShooterImages">
+                <img src="@/assets/WebshopFinal.png"/>
+            </div>
 
             <div class="container_buttons">
+                <button><RouterLink to="/leeruitkomsten">INTERACTIVE MEDIA</RouterLink></button>
                 <button><RouterLink to="/leeruitkomsten">Design</RouterLink></button>
             </div>
         </div>
     </div>
 </template>
 <style>
-.containerPenaltyShooterImages{
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
 .containerPenaltyShooterImages img {
-    height: 300px;
+    height: 500px;
+    margin-bottom: 20px;
 }
 button {
     background-color: black;
