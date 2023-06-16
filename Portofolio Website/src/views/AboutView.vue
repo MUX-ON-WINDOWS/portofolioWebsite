@@ -125,8 +125,8 @@
     <div class="container_content_uitleg2">
       <div class="content_container_margin">
         <h3>Reflectie:</h3>
-          Het hielp erg om feedback te vragen en dit weer toe te passen. Hierdoor kon voordat je verder ging werken eerst checken
-          of je zo goed te werk ging.
+          Ik zie mezelf als een toekomstige front-end developer.
+          Ik heb veel dingen geleerd. Denkaan het werken met animaties, website designs maken en het werken met een framework.
         <h3>Bewijs:</h3>
         <ul>
           <li><a href="https://i507258.hera.fhict.nl/">Portfolio</a></li>

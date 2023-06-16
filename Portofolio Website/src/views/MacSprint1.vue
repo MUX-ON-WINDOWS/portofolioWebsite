@@ -41,7 +41,7 @@ import { RouterLink } from 'vue-router'
                 er in te verwerken. Dit heb ik gedaan door de kleuren van de MacDonalds te gebruiken en de M van MacDonalds in de kaart te verwerken.
             </p>
             <div class="containerImages">
-                <img src="@/assets/Thomas Müller.png"/>
+                <img src="@/assets/ThomasMuller.png"/>
             </div>
             <h3>Prototype penaltyShooter sprint 1:</h3>
             <p>
