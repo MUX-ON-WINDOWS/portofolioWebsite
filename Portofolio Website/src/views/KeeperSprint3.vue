@@ -29,6 +29,11 @@ import { RouterLink } from 'vue-router'
                 Deze feedback is verwerkt in het <a href="https://i507258.hera.fhict.nl/KeepersWebShop/Iteratie%20beschrijving%20eigen%20project%20design%20week%203.pdf">design</a>
                 van de keeperswebshop.
             </p>
+            <h3>Test onderzoek website design:</h3>
+            <p>
+                Na het maken van het website design ben ik begonnen met een aantal vragen optezetten om deze aan mijn doelgroep te stellen.
+                De antworden en vragen heb ik genoteerd in mijn <a href="https://i507258.hera.fhict.nl/research/Onderzoek%20webshop%20design.pdf">bestand</a>.
+            </p>
             <div class="containerPenaltyShooterImages">
                 <img src="@/assets/WebshopFinal.png"/>
             </div>
@@ -36,6 +41,7 @@ import { RouterLink } from 'vue-router'
             <div class="container_buttons">
                 <button><RouterLink to="/leeruitkomsten">INTERACTIVE MEDIA</RouterLink></button>
                 <button><RouterLink to="/leeruitkomsten">Design</RouterLink></button>
+                <button><RouterLink to="/leeruitkomsten">Research</RouterLink></button>
             </div>
         </div>
     </div>
