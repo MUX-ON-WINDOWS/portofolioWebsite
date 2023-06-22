@@ -25,10 +25,11 @@ import { RouterLink } from 'vue-router'
         </p>
         <h3>Dashboard design:</h3>
         <p>
-            In dit project heb ik een dashboard design gemaakt voor een magazine website. In dit dashboard moeten de gebruikers (eigenaar van het blad)
+            In dit project heb ik een <a href="https://i507258.hera.fhict.nl/Naakt/DashboardDesignNaakt.pdf">dashboard design</a>
+            gemaakt voor een magazine website. In dit dashboard moeten de gebruikers (eigenaar van het blad)
             de artikelen en magazines kunnen beheren (Uploaden, verwijderen en bijwerken).
         </p>
-        <div class="containerPenaltyShooterImages">
+        <div class="containerNaaktImages">
                 <img src="@/assets/finalDashboard.png"/>
             </div>
 
@@ -47,6 +48,12 @@ import { RouterLink } from 'vue-router'
     </div>
 </template>
 <style>
+.containerNaaktImages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
 button {
     background-color: black;
     border: none;
