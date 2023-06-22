@@ -75,7 +75,7 @@
           <li><a href="https://i507258.hera.fhict.nl/KeepersWebShop/Logo/goalKeeperLogo_MaxV2.png">Logo</a></li>
           <li><a href="https://i507258.hera.fhict.nl/Naakt/DashboardDesignNaakt.pdf">Dashboard design NAAKT</a></li>
           <li><a href="https://xd.adobe.com/view/fbeddc70-d873-478e-a813-c343c2a11ab6-aebe/screen/25924c9e-085e-4679-bc29-c6d10988ec70">Portfolio design</a></li>
-          <li><a href="https://i507258.hera.fhict.nl/Carrousel%20protfolio.pdf">Portfolio design feedback</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/Carrousel%20portfolio.pdf">Portfolio design feedback</a></li>
         </ul>
       </div>
     </div>
