@@ -71,7 +71,7 @@
         margin: 0 auto;
     }
     .carousel__item {
-        background-color: #D3AE87;
+        box-shadow: 0px 0px 15px 6px;
         display: flex;
         justify-content: center;
         flex-direction: column;
