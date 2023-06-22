@@ -26,8 +26,8 @@
       </div>
   </div>
   <!-- rij 2 -->
-  <div class="container_row">
-    <div class="container_content_uitleg2">
+  <div class="container_row" style="margin-bottom: 40px;">
+    <div class="container_content_uitleg2" style="height: 400px;">
       <div class="content_container_margin">
         <h3>Reflectie:</h3>
           In dit semester heb ik veel verschillende nieuwe dingen geleerd. Zoals het werken met een framework (Vue.js) en
@@ -91,7 +91,7 @@
         <h3>Bewijs:</h3>
         <ul>
           <li><a href="https://i507258.hera.fhict.nl/research/onderzoekPlanning_TikTok%26Instagram.pdf">Post tijden TikTok & Instagram</a></li>
-          <li><a href="https://i507258.hera.fhict.nl/research/MacKaartenOnderzoek.pdf">Mac Donalds kaarten user test</a></li>
+          <li><a href="https://i507258.hera.fhict.nl/research/MacKaartenOnderzoek.pdf">Mac Donalds kaarten gebruikersonderzoek</a></li>
           <li><a href="https://i507258.hera.fhict.nl/research/Penalty Shooter research.pdf">Penaltyshooter research</a></li>
           <li><a href="https://i507258.hera.fhict.nl/research/Onderzoek framework eigen project.pdf">Onderzoek framework eigen project</a></li>
           <li><a href="https://i507258.hera.fhict.nl/research/Onderzoek prijs variantie keepers handschoenen.pdf">Onderzoek prijzen keepershandschoenen</a></li>

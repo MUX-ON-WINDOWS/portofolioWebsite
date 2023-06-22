@@ -46,10 +46,16 @@ import { RouterLink } from 'vue-router'
             <img src="@/assets/penaltyShooter.png" width="100%" />
             <img src="@/assets/animation.png" width="100%" />
         </div>
+        <h3>Gebruikersonderzoek voetbalkaartjes</h3>
+        <p>
+            Om er achter te komen of de voetbalkaartjes duidelijk waren heb ik een <a href="https://i507258.hera.fhict.nl/research/MacKaartenOnderzoek.pdf">gebruikersonderzoek</a> gedaan.
+            Hier heb ik niet veel tijd voor gehad en daarom maar een iemand kunnen interviewen.
+        </p>
         <h1>Leeruitkomsten die ik aan toon in dit project:</h1>
             <div class="container_buttons_sprint2_macdonalds">
                 <button><RouterLink to="/leeruitkomsten">Research</RouterLink></button>
                 <button><RouterLink to="/leeruitkomsten">Development</RouterLink></button>
+                <button><RouterLink to="/leeruitkomsten">Research</RouterLink></button>
             </div>
       </div>
     </div>
